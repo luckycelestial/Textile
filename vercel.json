@@ -1,0 +1,8 @@
+{
+  "rewrites": [
+    {
+      "source": "/",
+      "destination": "/stitch/digital_showroom_with_animations/code.html"
+    }
+  ]
+}

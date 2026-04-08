@@ -1,0 +1,290 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@400;500;600&amp;family=DM+Sans:wght@400;500;700&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "inverse-primary": "#4f625c",
+                    "surface-container-highest": "#393525",
+                    "on-surface-variant": "#c2c8c4",
+                    "error-container": "#93000a",
+                    "outline": "#8c928f",
+                    "on-primary-fixed": "#0d1f1a",
+                    "on-error-container": "#ffdad6",
+                    "on-tertiary-fixed": "#241a00",
+                    "tertiary": "#e2c375",
+                    "on-error": "#690005",
+                    "error": "#ffb4ab",
+                    "on-tertiary-fixed-variant": "#584400",
+                    "on-secondary-container": "#fdd977",
+                    "on-primary": "#22342e",
+                    "surface-container-low": "#1f1c0e",
+                    "surface-container-high": "#2d2a1b",
+                    "background": "#161307",
+                    "on-secondary": "#3d2e00",
+                    "secondary-fixed": "#ffe08f",
+                    "inverse-surface": "#eae2cb",
+                    "tertiary-fixed-dim": "#e2c375",
+                    "tertiary-fixed": "#ffdf91",
+                    "on-tertiary": "#3d2e00",
+                    "primary-fixed-dim": "#b7cbc3",
+                    "secondary": "#e6c364",
+                    "on-secondary-fixed-variant": "#584400",
+                    "surface-tint": "#b7cbc3",
+                    "surface-variant": "#393525",
+                    "primary-container": "#0d1f1a",
+                    "surface-dim": "#161307",
+                    "surface-container-lowest": "#110e03",
+                    "on-secondary-fixed": "#241a00",
+                    "secondary-fixed-dim": "#e6c364",
+                    "surface": "#161307",
+                    "outline-variant": "#424845",
+                    "surface-container": "#232011",
+                    "on-background": "#eae2cb",
+                    "on-primary-fixed-variant": "#384b44",
+                    "primary": "#b7cbc3",
+                    "on-primary-container": "#758881",
+                    "secondary-container": "#785d00",
+                    "on-surface": "#eae2cb",
+                    "surface-bright": "#3d3929",
+                    "inverse-on-surface": "#343021",
+                    "tertiary-container": "#c5a85d",
+                    "primary-fixed": "#d2e7df",
+                    "on-tertiary-container": "#4f3d00"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"],
+                    "ui": ["DM Sans"]
+            }
+          },
+        }
+      }
+    </script>
+<style>
+        .material-symbols-outlined {
+            font-variation-settings: 'FILL' 0, 'wght' 200, 'GRAD' 0, 'opsz' 24;
+        }
+        .silk-shimmer {
+            background: linear-gradient(45deg, #e6c364 0%, #ffe08f 50%, #e6c364 100%);
+            background-size: 200% 200%;
+        }
+        .fabric-loupe {
+            backdrop-filter: blur(8px);
+            border: 0.5px solid rgba(230, 195, 100, 0.4);
+        }
+        .text-glow {
+            text-shadow: 0 0 15px rgba(230, 195, 100, 0.3);
+        }
+        ::-webkit-scrollbar { width: 4px; }
+        ::-webkit-scrollbar-track { background: #161307; }
+        ::-webkit-scrollbar-thumb { background: #393525; }
+    </style>
+<title>Sri Lakshmi Textiles</title></head>
+<body class="bg-background text-on-surface font-body selection:bg-secondary/30">
+<!-- Top Navigation -->
+<nav class="fixed top-0 w-full z-50 bg-emerald-950/60 backdrop-blur-xl shadow-[0_20px_50px_rgba(13,31,26,0.5)]">
+<div class="flex justify-between items-center px-12 py-6 w-full max-w-screen-2xl mx-auto">
+<div class="text-2xl font-serif tracking-widest text-amber-200 uppercase">
+                Sri Lakshmi Textiles
+            </div>
+<div class="hidden md:flex items-center space-x-12">
+<a class="text-amber-200 border-b border-amber-200/40 pb-1 uppercase tracking-[0.1em] text-[11px] font-medium font-ui" href="../digital_showroom_with_animations/code.html">Home</a>
+<a class="text-stone-300 hover:text-amber-100 transition-colors duration-300 uppercase tracking-[0.1em] text-[11px] font-medium font-ui" href="../collections_textile_catalog/code.html">Collections</a>
+<a class="text-stone-300 hover:text-amber-100 transition-colors duration-300 uppercase tracking-[0.1em] text-[11px] font-medium font-ui" href="../our_legacy_storytelling_timeline/code.html">Our Legacy</a>
+<a class="text-stone-300 hover:text-amber-100 transition-colors duration-300 uppercase tracking-[0.1em] text-[11px] font-medium font-ui" href="../wholesale_portal_b2b_solutions/code.html">Wholesale Inquiry</a>
+</div>
+<div class="flex items-center gap-6">
+<button class="material-symbols-outlined text-amber-200">menu</button>
+</div>
+</div>
+</nav>
+<main class="pt-24">
+<!-- Hero Section -->
+<section class="relative h-[921px] flex items-center px-12 overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover opacity-60" data-alt="Exquisite macro shot of dark emerald silk fabric with golden embroidery reflecting soft light, deep shadows, and luxurious texture." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDIno3pccCVm79igXbAW8yzcK7Wca7dDMGkYRZvIE8eZwI0zHzaE9cn_Jjr0XIedp52OlwZKB_UPeXtpj8KahT9mksMYBDC6zTu_-t1WpmUMvQBGJ_CBRetA1zEkmtFVi0qeJpLjdcGZVwzCisunRzSL9Z0wY3tHyvc34WZMYJmAasTqwtrFmoYE2lQwyOXlw2FPPPGAJNsfwUsJqmH9TCiGSm0G1YcrkFLiSNq4sbf94iN2BugAsv0emCvGVZJq7uFWhepvP-fU2g">
+<div class="absolute inset-0 bg-gradient-to-r from-background via-background/40 to-transparent"></div>
+</div>
+<div class="relative z-10 max-w-4xl">
+<span class="inline-block label-sm uppercase tracking-[0.2em] text-secondary mb-6 font-ui">Est. 1924 • Digital Atelier</span>
+<h1 class="text-7xl md:text-8xl font-headline italic leading-tight text-on-surface mb-8">
+                    The Art of <br>
+<span class="text-secondary text-glow">Timeless Weave</span>
+</h1>
+<p class="text-xl text-on-surface-variant max-w-xl mb-10 leading-relaxed">
+                    Curating the world's most prestigious textiles for bridal houses and designer labels. Where heritage craftsmanship meets digital precision.
+                </p>
+<div class="flex items-center gap-8">
+<button class="silk-shimmer text-on-secondary px-8 py-4 rounded-sm font-ui font-bold tracking-wider uppercase text-sm hover:scale-[1.02] active:scale-[0.99] transition-all">
+                        Explore Collections
+                    </button>
+<button class="text-secondary flex items-center gap-3 font-ui uppercase tracking-widest text-sm group">
+                        View Legacy
+                        <span class="material-symbols-outlined group-hover:translate-x-2 transition-transform">arrow_forward</span>
+</button>
+</div>
+</div>
+</section>
+<!-- Trust Bar -->
+<section class="bg-surface-container-low py-12 px-12 border-y border-outline-variant/10">
+<div class="max-w-screen-2xl mx-auto flex flex-wrap justify-between items-center opacity-60 grayscale hover:grayscale-0 transition-all duration-700">
+<div class="flex items-center gap-2 px-6">
+<span class="material-symbols-outlined text-secondary">verified</span>
+<span class="font-headline italic text-lg">Vogue Textiles</span>
+</div>
+<div class="flex items-center gap-2 px-6 border-l border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary">workspace_premium</span>
+<span class="font-headline italic text-lg">Parisian Bridal Federation</span>
+</div>
+<div class="flex items-center gap-2 px-6 border-l border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary">star</span>
+<span class="font-headline italic text-lg">Atelier Guild</span>
+</div>
+<div class="flex items-center gap-2 px-6 border-l border-outline-variant/20">
+<span class="material-symbols-outlined text-secondary">diamond</span>
+<span class="font-headline italic text-lg">London Couture Society</span>
+</div>
+</div>
+</section>
+<!-- Featured Arrivals Section -->
+<section class="py-32 px-12 bg-background relative overflow-hidden">
+<div class="absolute -right-40 top-40 w-96 h-96 bg-primary-container/20 rounded-full blur-[120px]"></div>
+<div class="max-w-screen-2xl mx-auto mb-20 flex justify-between items-end">
+<div class="max-w-2xl">
+<h2 class="text-5xl font-headline italic mb-6">New Season <span class="text-secondary">Artifacts</span></h2>
+<p class="text-on-surface-variant font-body leading-relaxed">
+                        Discover our latest textile arrivals, sourced from the finest mills across three continents. Each bolt is inspected for structural integrity and aesthetic perfection.
+                    </p>
+</div>
+<button class="text-secondary border-b border-secondary/30 pb-1 font-ui uppercase tracking-widest text-xs mb-2">View All Arrivals</button>
+</div>
+<!-- Bento-ish Grid for Featured Arrivals -->
+<div class="max-w-screen-2xl mx-auto grid grid-cols-1 md:grid-cols-12 gap-8">
+<!-- Bridal Focus -->
+<div class="md:col-span-8 group relative aspect-[16/9] overflow-hidden rounded-sm bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-105" data-alt="Intricate ivory bridal lace with delicate floral patterns and seed pearl detailing draped over an antique mannequin in soft light." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDFh6xLfsLbN9KLV0toKC7jW1qUlr2R_xq_6eRp_MerJeaQpZNMWjYynx4XVeEqBfburnjnWBVppFK41TmafM8Cr-snl9TLK_gizJ85JWFABLXD60J8iZXPZgimsirXg3iXBdrJAyXs8m_ApHvZGr883O4QJKAcfA286Bk6k6eKRqJyeYTWuxoVTVg3Kcfc9-XZw1nZ1jEQngcMmn9XHMLzc2MeUEaZ8sZXRssOTC92t-aa6KSmGYnsSsdQGRIGdTI4gNJT1IsXQ44">
+<div class="absolute inset-0 bg-gradient-to-t from-background via-transparent to-transparent opacity-90"></div>
+<div class="absolute bottom-10 left-10 right-10 flex justify-between items-end">
+<div>
+<span class="label-sm uppercase tracking-[0.2em] text-secondary mb-2 block font-ui">Signature Category</span>
+<h3 class="text-4xl font-headline italic text-on-surface">The Bridal Archive</h3>
+</div>
+<div class="fabric-loupe p-4 rounded-full flex items-center justify-center text-secondary">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">zoom_in</span>
+</div>
+</div>
+</div>
+<!-- Designer Series -->
+<div class="md:col-span-4 group relative overflow-hidden rounded-sm bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" data-alt="Close-up of heavy weight navy velvet fabric with a deep luster and rich texture, appearing soft and opulent." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAJSUx7CeSBGoae_5eoGy2KsV4becRr7Wlze6lbNKqQOUq-SIBGiMOeGz0qgsE80XqqSlnqFJDleVmNa4Omzy2vnJqELDcFeOp1RLBU7RoowS8vSuJYSgfd40_ATnZ7OI7eZL5lSkE9iLJTD2GGYk9iGdYmIaJpzMyslZa32300Brns3mt2ggZQLsjixiF9R4zF_VPZOvNQ6y_Ve9a8dEo4ORIg_zbcIKtjeL2ifhC5yFsPI_n4PkLJTRrtC9jB-ZyUYFKwVsMt-Rc">
+<div class="absolute inset-0 bg-background/20 group-hover:bg-background/0 transition-colors"></div>
+<div class="absolute inset-0 p-8 flex flex-col justify-end bg-gradient-to-t from-background/80 to-transparent">
+<span class="label-sm uppercase tracking-[0.2em] text-secondary mb-2 font-ui">Limited Run</span>
+<h3 class="text-2xl font-headline italic mb-4">Midnight Velvet</h3>
+<p class="text-sm text-on-surface-variant opacity-0 group-hover:opacity-100 transition-opacity duration-500">Pure silk velvet for evening-wear masterpieces.</p>
+</div>
+</div>
+<!-- Silk Weave -->
+<div class="md:col-span-4 group relative h-[500px] overflow-hidden rounded-sm bg-surface-container-low">
+<img class="w-full h-full object-cover transition-transform duration-1000 group-hover:scale-110" data-alt="Golden silk thread spools and hand-woven brocade fabric showing shimmering metallic patterns in a heritage loom setting." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCMOcBVqfVqiEC39MLl4segvUv9-uPEF9m7pPp9HKbkP3yUzmStjDtg4B0aWsKATQkuAyZGW3WPyoSe4d_4qsGc9VXz38Em05h6nRgUPjl3fxAqwcHN3MYbiFGJ5Lb_5nRmurqIFz_6b7A7gqZlXdM59aTVhFL2Gmrh-yyQluHiMNDLcAE-UizxxNMRSqrrasiBqiFQGjb7Uq53GMX-WS22QafUHMKLHlOH3_9lI6j9s-8ShjB2XSivzQR-zwSIm8BwpT15O23C2K8">
+<div class="absolute inset-0 p-8 flex flex-col justify-between">
+<div class="flex justify-end">
+<span class="bg-secondary/10 backdrop-blur-md border border-secondary/20 text-secondary px-3 py-1 text-[10px] uppercase tracking-widest font-ui">Heritage</span>
+</div>
+<div>
+<h3 class="text-2xl font-headline italic mb-2">Ancestral Gold Silk</h3>
+<span class="text-xs font-ui text-secondary uppercase tracking-widest">Discover Weave →</span>
+</div>
+</div>
+</div>
+<!-- Collection Story -->
+<div class="md:col-span-8 bg-surface-container-low p-16 flex flex-col justify-center items-start border border-secondary/5">
+<span class="material-symbols-outlined text-secondary text-5xl mb-8">auto_awesome</span>
+<h3 class="text-4xl font-headline italic mb-6 leading-snug">Every thread tells a story of <br>centuries-old <span class="text-secondary">tradition</span>.</h3>
+<p class="text-on-surface-variant max-w-xl mb-10 leading-relaxed font-body">
+                        Our sourcing team travels to remote villages to secure weaves that cannot be replicated by modern machinery. We preserve the craft while empowering the artisans.
+                    </p>
+<div class="flex gap-12">
+<div>
+<div class="text-3xl font-headline italic text-secondary">480+</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-ui mt-1">Unique Patterns</div>
+</div>
+<div>
+<div class="text-3xl font-headline italic text-secondary">12</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-ui mt-1">Global Regions</div>
+</div>
+<div>
+<div class="text-3xl font-headline italic text-secondary">100%</div>
+<div class="text-[10px] uppercase tracking-widest text-on-surface-variant font-ui mt-1">Ethical Sourcing</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+</main>
+<!-- Footer -->
+<footer class="bg-[#161307] w-full pt-20 pb-10 px-12">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-12 w-full max-w-screen-2xl mx-auto mb-20">
+<div class="flex flex-col gap-6">
+<div class="text-lg font-serif text-amber-200 uppercase tracking-widest">Sri Lakshmi Textiles</div>
+<p class="text-sm font-sans text-stone-400 leading-relaxed">
+                    Elevating the wholesale textile experience through curation, craftsmanship, and digital accessibility.
+                </p>
+<div class="flex gap-4">
+<span class="material-symbols-outlined text-amber-200 text-xl cursor-pointer hover:scale-110 transition-transform">public</span>
+<span class="material-symbols-outlined text-amber-200 text-xl cursor-pointer hover:scale-110 transition-transform">share</span>
+<span class="material-symbols-outlined text-amber-200 text-xl cursor-pointer hover:scale-110 transition-transform">mail</span>
+</div>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-xs font-ui uppercase tracking-[0.2em] text-amber-200 mb-2">Showroom</h4>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="../digital_showroom_with_animations/code.html">Home</a>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="../collections_textile_catalog/code.html">Collections</a>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="../our_legacy_storytelling_timeline/code.html">Our Legacy</a>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="../wholesale_portal_b2b_solutions/code.html">Wholesale Inquiry</a>
+</div>
+<div class="flex flex-col gap-4">
+<h4 class="text-xs font-ui uppercase tracking-[0.2em] text-amber-200 mb-2">Legacy</h4>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="#">Privacy Policy</a>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="#">Terms of Service</a>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="../home_digital_showroom_expanded/code.html">Showroom Locator</a>
+<a class="text-stone-500 hover:text-amber-200 transition-colors text-sm font-sans" href="#">Contact Us</a>
+</div>
+<div class="flex flex-col gap-6">
+<h4 class="text-xs font-ui uppercase tracking-[0.2em] text-amber-200">The Newsletter</h4>
+<div class="relative">
+<input class="bg-transparent border-b border-stone-800 w-full py-2 text-sm text-on-surface focus:outline-none focus:border-amber-200 transition-colors placeholder:text-stone-700" placeholder="Your artisan email" type="email">
+<button class="absolute right-0 bottom-2 text-amber-200 material-symbols-outlined text-lg">arrow_forward</button>
+</div>
+</div>
+</div>
+<div class="max-w-screen-2xl mx-auto border-t border-stone-900 pt-8 flex flex-col md:flex-row justify-between items-center gap-4">
+<span class="text-xs font-sans text-stone-400">© 2024 Sri Lakshmi Textiles Atelier. All Rights Reserved.</span>
+<span class="text-[10px] font-ui uppercase tracking-widest text-stone-600">Handcrafted Excellence</span>
+</div>
+</footer>
+<!-- Floating WhatsApp Button -->
+<a class="fixed bottom-10 right-10 z-[100] group" href="#">
+<div class="silk-shimmer p-5 rounded-sm shadow-[0_10px_40px_rgba(230,195,100,0.4)] flex items-center justify-center group-hover:-translate-y-2 transition-transform duration-300">
+<span class="material-symbols-outlined text-on-secondary text-2xl" data-weight="fill" style="font-variation-settings: 'FILL' 1;">chat</span>
+</div>
+<div class="absolute right-full mr-4 top-1/2 -translate-y-1/2 bg-surface-container-highest px-4 py-2 rounded-sm opacity-0 group-hover:opacity-100 transition-opacity pointer-events-none whitespace-nowrap border border-secondary/20">
+<span class="text-xs text-secondary font-ui uppercase tracking-widest">Connect with a Specialist</span>
+</div>
+</a>
+</body></html>

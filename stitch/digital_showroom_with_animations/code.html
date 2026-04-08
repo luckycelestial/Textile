@@ -1,0 +1,615 @@
+<!DOCTYPE html><html class="dark" lang="en"><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>Sri Lakshmi Textiles | Premium Indian Wholesale</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Noto+Serif:ital,wght@0,400;0,700;1,400&amp;family=Manrope:wght@300;400;600&amp;family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "background": "#161307",
+                    "tertiary-fixed-dim": "#e2c375",
+                    "surface-container": "#232011",
+                    "tertiary-container": "#c5a85d",
+                    "error-container": "#93000a",
+                    "on-tertiary-fixed": "#241a00",
+                    "surface": "#161307",
+                    "secondary-container": "#785d00",
+                    "on-primary-container": "#758881",
+                    "outline": "#8c928f",
+                    "on-secondary-fixed-variant": "#584400",
+                    "on-tertiary-container": "#4f3d00",
+                    "on-secondary-fixed": "#241a00",
+                    "secondary": "#e6c364",
+                    "on-error-container": "#ffdad6",
+                    "on-tertiary-fixed-variant": "#584400",
+                    "surface-dim": "#161307",
+                    "on-secondary-container": "#fdd977",
+                    "primary-fixed": "#d2e7df",
+                    "primary-fixed-dim": "#b7cbc3",
+                    "on-primary": "#22342e",
+                    "surface-container-low": "#1f1c0e",
+                    "on-surface-variant": "#c2c8c4",
+                    "on-background": "#eae2cb",
+                    "surface-container-highest": "#393525",
+                    "surface-variant": "#393525",
+                    "on-tertiary": "#3d2e00",
+                    "on-primary-fixed": "#0d1f1a",
+                    "tertiary": "#e2c375",
+                    "tertiary-fixed": "#ffdf91",
+                    "inverse-on-surface": "#343021",
+                    "on-error": "#690005",
+                    "primary": "#b7cbc3",
+                    "surface-tint": "#b7cbc3",
+                    "surface-container-high": "#2d2a1b",
+                    "secondary-fixed-dim": "#e6c364",
+                    "secondary-fixed": "#ffe08f",
+                    "inverse-surface": "#eae2cb",
+                    "on-surface": "#eae2cb",
+                    "surface-container-lowest": "#110e03",
+                    "outline-variant": "#424845",
+                    "on-secondary": "#3d2e00",
+                    "primary-container": "#0d1f1a",
+                    "surface-bright": "#3d3929",
+                    "inverse-primary": "#4f625c",
+                    "on-primary-fixed-variant": "#384b44",
+                    "error": "#ffb4ab"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "fontFamily": {
+                    "headline": ["Noto Serif"],
+                    "body": ["Manrope"],
+                    "label": ["Manrope"]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+      .material-symbols-outlined {
+        font-variation-settings: 'FILL' 0, 'wght' 300, 'GRAD' 0, 'opsz' 24;
+        display: inline-block;
+        line-height: 1;
+      }
+      .silk-overlay {
+        background: linear-gradient(to bottom, rgba(13, 31, 26, 0.7), rgba(22, 19, 7, 0.95));
+      }
+      .glass-card {
+        backdrop-filter: blur(12px);
+        background: rgba(35, 32, 17, 0.6);
+      }
+      .shimmer-btn {
+        background: linear-gradient(45deg, #e6c364, #fdd977, #e6c364);
+        background-size: 200% 200%;
+      }
+      .hide-scrollbar::-webkit-scrollbar { display: none; }
+      .hide-scrollbar { -ms-overflow-style: none; scrollbar-width: none; }
+
+      /* Animation Classes */
+      .fade-up {
+        opacity: 0;
+        transform: translateY(20px);
+        transition: opacity 0.8s ease-out, transform 0.8s ease-out;
+      }
+      .fade-up.visible {
+        opacity: 1;
+        transform: translateY(0);
+      }
+      .scale-up {
+        opacity: 0;
+        transform: scale(0.96);
+        transition: opacity 0.6s ease-out, transform 0.6s ease-out;
+      }
+      .scale-up.visible {
+        opacity: 1;
+        transform: scale(1);
+      }
+      
+      .stagger-1 { transition-delay: 100ms; }
+      .stagger-2 { transition-delay: 200ms; }
+      .stagger-3 { transition-delay: 300ms; }
+      .stagger-4 { transition-delay: 400ms; }
+
+      /* Hover Effects */
+      .hover-card {
+        transition: transform 0.3s ease, box-shadow 0.3s ease, border-color 0.3s ease;
+        border: 1px solid transparent;
+      }
+      .hover-card:hover {
+        transform: translateY(-4px);
+        border-color: rgba(230, 195, 100, 0.4);
+        box-shadow: 0 0 20px rgba(230, 195, 100, 0.15);
+      }
+
+      /* WhatsApp Pulse */
+      @keyframes pulse-gold {
+        0% { box-shadow: 0 0 0 0 rgba(230, 195, 100, 0.4); }
+        70% { box-shadow: 0 0 0 15px rgba(230, 195, 100, 0); }
+        100% { box-shadow: 0 0 0 0 rgba(230, 195, 100, 0); }
+      }
+      .animate-pulse-gold {
+        animation: pulse-gold 2s infinite;
+      }
+    </style>
+</head>
+<body class="bg-surface text-on-surface font-body selection:bg-secondary selection:text-on-secondary">
+<script>
+      const TEMPLATE_CONFIG = {
+        BUSINESS_NAME: "Sri Lakshmi Textiles",
+        TAGLINE: "Coimbatore's Trusted Legacy in Fabrics",
+        ESTABLISHED_YEAR: "2003",
+        EXPERIENCE_YEARS: "20+",
+        GOOGLE_RATING: "4.8",
+        REVIEW_COUNT: "1240",
+        WHATSAPP_NUMBER: "919XXXXXXXXX",
+        TESTIMONIALS: [
+          { name: "Meena R.", location: "Chennai", rating: 5, text: "Best wholesale silk prices in Coimbatore. Fabric quality is exceptional." },
+          { name: "Karthik S.", location: "Tiruppur", rating: 5, text: "Been sourcing from here for 8 years. Never disappointed." },
+          { name: "Priya Boutique", location: "Erode", rating: 4, text: "Great bridal collection. Staff very knowledgeable about weaves." }
+        ]
+      };
+    </script>
+
+    <!-- Top Navigation Bar -->
+    <nav class="absolute top-0 w-full z-50 bg-emerald-950/60 backdrop-blur-xl shadow-[0_20px_50px_rgba(13,31,26,0.5)]">
+        <div class="flex justify-between items-center px-12 py-6 w-full max-w-screen-2xl mx-auto">
+            <div class="text-2xl font-serif tracking-widest text-amber-200 uppercase">Sri Lakshmi Textiles</div>
+            <div class="hidden md:flex gap-10 items-center">
+                <a class="uppercase tracking-[0.1em] text-[11px] font-medium text-amber-200 border-b border-amber-200/40 pb-1" href="../digital_showroom_with_animations/code.html">Home</a>
+                <a class="uppercase tracking-[0.1em] text-[11px] font-medium text-stone-300 hover:text-amber-100 transition-colors duration-300" href="../collections_textile_catalog/code.html">Collections</a>
+                <a class="uppercase tracking-[0.1em] text-[11px] font-medium text-stone-300 hover:text-amber-100 transition-colors duration-300" href="../our_legacy_storytelling_timeline/code.html">Our Legacy</a>
+                <a class="uppercase tracking-[0.1em] text-[11px] font-medium text-stone-300 hover:text-amber-100 transition-colors duration-300" href="../wholesale_portal_b2b_solutions/code.html">Wholesale Inquiry</a>
+            </div>
+            <div class="flex items-center gap-6">
+                <span class="material-symbols-outlined text-amber-200 cursor-pointer">menu</span>
+            </div>
+        </div>
+    </nav>
+
+  <!-- 1. HERO SECTION -->
+<section class="relative min-h-screen flex items-center justify-center overflow-hidden">
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover" data-alt="Close-up of premium emerald green and gold silk textile weave with soft dramatic lighting" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAlkkKhrRW9VdLxcCAlCCG8pI8IPFEv5-73Cap38f8v24PdDAqnYE4X2PEJ37_9r2zTNVpZuur0qiYhc4fpbUoy_LUSi2KEIuuNUPFGCGsqTdfJnay5BcXMST1HfrGFfkLbdsxQbrqryXPK41mysKSSQ5-Arn7RyNiPCRj8Nus7gN6gdqFhuT-WI2M2QdLI6Mt_ggJilTEbbjsX8EI72Y1lWBkFECSB30XUaRIf4H04OR-J_W0rvUFQbcxejZJy-4MytlYt1f-sAow">
+<div class="absolute inset-0 silk-overlay"></div>
+</div>
+<div class="relative z-10 text-center px-6 max-w-4xl mx-auto">
+<div class="fade-up visible inline-flex items-center space-x-2 mb-6 px-4 py-1.5 border border-secondary/20 bg-surface-container-lowest/40 backdrop-blur-md rounded-full">
+<span class="material-symbols-outlined text-secondary text-sm" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="text-[10px] font-label uppercase tracking-[0.2em] text-secondary">Top Rated Wholesaler</span>
+</div>
+<h1 class="fade-up stagger-1 font-headline text-5xl md:text-7xl lg:text-8xl mb-6 tracking-tight leading-none text-on-background">
+          Sri Lakshmi Textiles
+        </h1>
+<p class="fade-up stagger-2 font-headline italic text-lg md:text-2xl text-secondary/80 mb-10 max-w-2xl mx-auto">
+          Coimbatore's Trusted Legacy in Fabrics
+        </p>
+<div class="fade-up stagger-3 flex flex-col md:flex-row items-center justify-center gap-4">
+<a class="shimmer-btn text-on-secondary px-8 py-4 rounded-sm font-semibold uppercase tracking-widest text-xs transition-all hover:scale-105 active:scale-95 shadow-lg shadow-primary-container/20" href="#catalog">
+            Request Catalog
+          </a>
+</div>
+</div>
+<div class="absolute bottom-10 left-1/2 -translate-x-1/2 animate-bounce opacity-60">
+<span class="material-symbols-outlined text-secondary">south</span>
+</div>
+</section>
+<!-- 2. TRUST BAR -->
+<section class="bg-primary-container py-12 md:py-16 border-y border-outline-variant/10" id="trust-bar">
+<div class="max-w-7xl mx-auto px-6">
+<div class="flex flex-col md:flex-row items-center justify-between gap-8">
+<div class="flex flex-col md:flex-row items-center gap-4 md:gap-8">
+<div class="flex items-center gap-2">
+<span class="text-secondary font-headline text-5xl md:text-6xl font-bold" data-count-target="4.8" id="rating-count">0.0</span>
+<div class="flex flex-col">
+<div class="flex text-secondary">
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-xs" style="font-variation-settings: 'FILL' 1;">star_half</span>
+</div>
+<span class="text-[10px] font-label uppercase tracking-widest text-primary">Google Rating</span>
+</div>
+</div>
+<div class="h-px w-12 md:h-12 md:w-px bg-outline-variant/30"></div>
+<div class="text-center md:text-left">
+<p class="text-on-background font-bold text-2xl tracking-tight"><span data-count-target="1240" id="review-count">0</span>+</p>
+<p class="text-[10px] font-label uppercase tracking-widest text-primary">Verified Reviews</p>
+</div>
+</div>
+<div class="flex items-center gap-6 opacity-60 grayscale hover:grayscale-0 transition-all">
+<svg class="h-8 w-auto fill-current text-primary" viewBox="0 0 24 24"><path d="M12.48 10.92v3.28h7.84c-.24 1.84-2.52 5.44-7.84 5.44-4.6 0-8.36-3.8-8.36-8.48s3.76-8.48 8.36-8.48c2.6 0 4.36 1.08 5.36 2.04l2.56-2.48C18.88 1.4 15.96 0 12.48 0 5.6 0 0 5.6 0 12.48s5.6 12.48 12.48 12.48c7.16 0 11.92-5.04 11.92-12.12 0-.84-.08-1.48-.2-2.12h-11.72z"></path></svg>
+<span class="text-primary font-headline italic text-lg">Trustpilot</span>
+<span class="text-primary font-bold text-xl">SourcingHub</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 3. VALUE PROPOSITION -->
+<section class="py-24 bg-surface relative overflow-hidden">
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="grid grid-cols-1 md:grid-cols-3 gap-12">
+<!-- Card 1 -->
+<div class="group scale-up scroll-trigger">
+<div class="w-12 h-12 mb-8 flex items-center justify-center text-secondary transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">payments</span>
+</div>
+<h3 class="font-headline text-2xl mb-4 text-on-background">Wholesale Pricing</h3>
+<p class="text-on-surface-variant leading-relaxed font-light">Direct mill-to-wholesaler rates, ensuring maximum margins for your retail boutique or apparel brand.</p>
+<div class="mt-6 w-8 h-[1px] bg-secondary/30 group-hover:w-16 transition-all"></div>
+</div>
+<!-- Card 2 -->
+<div class="group scale-up stagger-1 scroll-trigger">
+<div class="w-12 h-12 mb-8 flex items-center justify-center text-secondary transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">verified_user</span>
+</div>
+<h3 class="font-headline text-2xl mb-4 text-on-background">Quality Assurance</h3>
+<p class="text-on-surface-variant leading-relaxed font-light">Every meter of fabric undergoes a rigorous 4-point inspection system before dispatched to your warehouse.</p>
+<div class="mt-6 w-8 h-[1px] bg-secondary/30 group-hover:w-16 transition-all"></div>
+</div>
+<!-- Card 3 -->
+<div class="group scale-up stagger-2 scroll-trigger">
+<div class="w-12 h-12 mb-8 flex items-center justify-center text-secondary transition-transform group-hover:scale-110">
+<span class="material-symbols-outlined text-4xl">history_edu</span>
+</div>
+<h3 class="font-headline text-2xl mb-4 text-on-background">20+ Years Experience</h3>
+<p class="text-on-surface-variant leading-relaxed font-light">Founded in 2003, we understand the nuances of South Indian weaves and global textile trends better than anyone.</p>
+<div class="mt-6 w-8 h-[1px] bg-secondary/30 group-hover:w-16 transition-all"></div>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. CATEGORY GRID -->
+<section class="py-24 bg-surface-container-low">
+<div class="max-w-7xl mx-auto px-6">
+<div class="mb-16 flex flex-col md:flex-row md:items-end justify-between gap-6">
+<div>
+<span class="text-[10px] font-label uppercase tracking-[0.3em] text-secondary">The Atelier Collection</span>
+<h2 class="font-headline text-4xl md:text-5xl mt-2 text-on-background">Explore Our Specializations</h2>
+</div>
+<p class="text-on-surface-variant max-w-sm font-light">Curation of the finest fabrics sourced across the Indian subcontinent.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 h-[1000px] md:h-[800px]">
+<!-- Category 1 -->
+<div class="relative group overflow-hidden rounded-sm bg-surface-container-highest hover-card scale-up scroll-trigger">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="Intricate traditional Indian bridal silk sari with gold zari embroidery and heavy borders" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCHbSJvmxMkZeDje_9YIgbQ-l0u3AvA7rV6TD84TmZnIq9-v8j-hCfrzzkBG1pRMP498x-PnSlIvzAxEnbIyQU1XEU_xB0lv8pp2YXSIo59Xk3QMziT1c9kLlUBhMmQBj2Vro1qfAexOLwFqzJP2ygfNqK4bjb-0LDUZ6_mBZZinXgiDR330wTf4Zs3ZQ0K_NhmoqPFh8Go3pnrKpCVwEoDw-nLmaU7Pq6-JdY9b6jY5gmq4cF-9K5pSHR5htEvyCWE_rboXPF2soM">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full flex justify-between items-end">
+<div>
+<h3 class="font-headline text-3xl text-on-background mb-2">Bridal Collections</h3>
+<p class="text-secondary text-xs font-label uppercase tracking-widest">Kanchipuram &amp; Banarasi Silks</p>
+</div>
+<a class="w-12 h-12 rounded-full border border-secondary/20 flex items-center justify-center text-secondary hover:bg-secondary hover:text-on-secondary transition-colors" href="https://wa.me/919XXXXXXXXX">
+<span class="material-symbols-outlined">send</span>
+</a>
+</div>
+</div>
+<!-- Category 2 -->
+<div class="relative group overflow-hidden rounded-sm bg-surface-container-highest hover-card scale-up stagger-1 scroll-trigger">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="Modern minimal white and pastel designer fabrics arranged in clean aesthetic folds" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCxQfhUhuNLTY7JphofdFd1xWuV4VjIN5pUsKa65Rrl5wLpHvGnrK7gh2MShJr1H5U6go-IlrlTOL-SuLYXXBo85OA_nc78PQOtx76vl1DjiQuUn0GbYnSB1Q2Q5-pbTw1lnI-JJp5KV8O4XAugxOzgMkVbiCKLl0yips5QaFLzWqXbJmZcO7fEIoiRqA4jDKVr8d4OGJ9DQLJB6IdtWswD_m_3s4m2JPH8tvgRpqMwI_NKToVnkfHBqjTZlhxaRq3Qt4cpoZXLMJY">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full flex justify-between items-end">
+<div>
+<h3 class="font-headline text-3xl text-on-background mb-2">Designer Materials</h3>
+<p class="text-secondary text-xs font-label uppercase tracking-widest">Linen, Organza &amp; Chiffon</p>
+</div>
+<a class="w-12 h-12 rounded-full border border-secondary/20 flex items-center justify-center text-secondary hover:bg-secondary hover:text-on-secondary transition-colors" href="https://wa.me/919XXXXXXXXX">
+<span class="material-symbols-outlined">send</span>
+</a>
+</div>
+</div>
+<!-- Category 3 -->
+<div class="relative group overflow-hidden rounded-sm bg-surface-container-highest hover-card scale-up stagger-2 scroll-trigger">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="Rolls of premium silk in various vibrant colors stacked in a high-end wholesale showroom" src="https://lh3.googleusercontent.com/aida-public/AB6AXuCeF_I0K50SL0u2HvWCRgkWsrcVq4YCgZE8UNDNEuQxcMyXCjUNEwJnvYSOVWJ0o4bQVgy-i2t8TEUxW8HIS7Rxeghx1UBeDdzzvtDJVWxa3vtRM4NrXkADFrz9GScRk8TSWwaVMU_yVT692fU5MjzWi6K6qSmsLmgTwHe4HJoXwgPNAN0nDHoj6hYPh8UCC4UqjwGt7nHn-fIiaEIjI4ucblJychwS-rxd_Va81BCw606QehwJJ1-2EwGFGM1bhE0OsEBzeg03xhg">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full flex justify-between items-end">
+<div>
+<h3 class="font-headline text-3xl text-on-background mb-2">Wholesale Silks</h3>
+<p class="text-secondary text-xs font-label uppercase tracking-widest">Raw Silk &amp; Dupion Bulk</p>
+</div>
+<a class="w-12 h-12 rounded-full border border-secondary/20 flex items-center justify-center text-secondary hover:bg-secondary hover:text-on-secondary transition-colors" href="https://wa.me/919XXXXXXXXX">
+<span class="material-symbols-outlined">send</span>
+</a>
+</div>
+</div>
+<!-- Category 4 -->
+<div class="relative group overflow-hidden rounded-sm bg-surface-container-highest hover-card scale-up stagger-3 scroll-trigger">
+<img class="absolute inset-0 w-full h-full object-cover transition-transform duration-700 group-hover:scale-110 opacity-60" data-alt="Organized stack of high-quality uniform cotton and poly-viscose fabrics in professional shades" src="https://lh3.googleusercontent.com/aida-public/AB6AXuA6jzHpcJFK1fE-Dl_xX9jUjauX2-n8mlphCOVC2FACDDRFsl_qC296W7KGkk4ytVs7qxFpG6edrxEQXS55qISOjAvtb3eSJlbzKiLRfQmIp9j-GAAYRwZPKsIb-HljikyFg2a791SWpNLD_eXBbJa51eHUCgvSwDyDFFdgrnyLZrk-Z0-Qq0b5R3s38FTyKY4zz8kiDsaH7SPkTZOsuq2ycoj_ZWMBwrPjOsRSAElpTsItdqlZ_mWqilQkDJQ4oTicH8bX9fsvDHk">
+<div class="absolute inset-0 bg-gradient-to-t from-surface via-transparent to-transparent"></div>
+<div class="absolute bottom-0 left-0 p-8 w-full flex justify-between items-end">
+<div>
+<h3 class="font-headline text-3xl text-on-background mb-2">Uniform Fabrics</h3>
+<p class="text-secondary text-xs font-label uppercase tracking-widest">School &amp; Corporate Bulk</p>
+</div>
+<a class="w-12 h-12 rounded-full border border-secondary/20 flex items-center justify-center text-secondary hover:bg-secondary hover:text-on-secondary transition-colors" href="https://wa.me/919XXXXXXXXX">
+<span class="material-symbols-outlined">send</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Saree Collections -->
+<section class="py-24 bg-surface text-center">
+  <div class="max-w-7xl mx-auto px-6">
+    <div class="mb-16 fade-up scroll-trigger">
+      <span class="text-[10px] font-label uppercase tracking-[0.3em] text-secondary">The Exquisite Range</span>
+      <h2 class="font-headline text-4xl md:text-5xl mt-2 text-on-background">Saree Collections</h2>
+      <p class="text-on-surface-variant font-light mt-4 max-w-2xl mx-auto">From traditional Kanchipuram to modern Organza, discover a world of exquisite sarees celebrating the rich weaving heritage.</p>
+    </div>
+    <div class="grid grid-cols-2 md:grid-cols-4 gap-8">
+      <!-- Collection 1 -->
+      <div class="group cursor-pointer scale-up scroll-trigger">
+        <div class="overflow-hidden rounded-md aspect-[3/4] mb-4 border border-outline-variant/20 hover-card">
+          <img src="https://plus.unsplash.com/premium_photo-1682090886566-ab5d99dedf52?auto=format&fit=crop&q=80&w=400" alt="Kanchipuram Silk" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+        </div>
+        <h3 class="font-headline text-lg text-on-background group-hover:text-secondary transition-colors">Kanchipuram Silk</h3>
+      </div>
+      <!-- Collection 2 -->
+      <div class="group cursor-pointer scale-up stagger-1 scroll-trigger">
+        <div class="overflow-hidden rounded-md aspect-[3/4] mb-4 border border-outline-variant/20 hover-card">
+          <img src="https://images.unsplash.com/photo-1610189013009-43c221efc2c4?auto=format&fit=crop&q=80&w=400" alt="Soft Silk" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+        </div>
+        <h3 class="font-headline text-lg text-on-background group-hover:text-secondary transition-colors">Soft Silk</h3>
+      </div>
+      <!-- Collection 3 -->
+      <div class="group cursor-pointer scale-up stagger-2 scroll-trigger">
+        <div class="overflow-hidden rounded-md aspect-[3/4] mb-4 border border-outline-variant/20 hover-card">
+          <img src="https://images.unsplash.com/photo-1596455589083-05ecb54d3c33?auto=format&fit=crop&q=80&w=400" alt="Banarasi Silk" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+        </div>
+        <h3 class="font-headline text-lg text-on-background group-hover:text-secondary transition-colors">Banarasi Silk</h3>
+      </div>
+      <!-- Collection 4 -->
+      <div class="group cursor-pointer scale-up stagger-3 scroll-trigger">
+        <div class="overflow-hidden rounded-md aspect-[3/4] mb-4 border border-outline-variant/20 hover-card">
+          <img src="https://images.unsplash.com/photo-1605518216938-7c31b7b14ad0?auto=format&fit=crop&q=80&w=400" alt="Cotton Sarees" class="w-full h-full object-cover transition-transform duration-700 group-hover:scale-110">
+        </div>
+        <h3 class="font-headline text-lg text-on-background group-hover:text-secondary transition-colors">Cotton Sarees</h3>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- 5. TESTIMONIALS -->
+<section class="py-24 relative overflow-hidden">
+<div class="absolute inset-0 opacity-20 pointer-events-none">
+<img class="w-full h-full object-cover" data-alt="Blurred abstract background of rich purple and gold silk drapes" src="https://lh3.googleusercontent.com/aida-public/AB6AXuAZjwyjSAhYBUIfOh_XeLV_sL9SEUQua521AcFH71BQqkM-aDEwCaI9KXkomP-_STOm9pG2FqQN0KnPLxsh8iRZOz5EhhW1j1sxwGLEbKPUmVYGXGt0c8W52iCKTTinwOXA2mzWdJ9bTC5_XVghthNHtvirJdx3WsqAIFjW9hce-OybfwPSpb-eBM_A5wrMAIdxsQo-WcBSWfJEjPUUF9DrV4XcteBLjKIgwA2-3ERADBtv2kaTQ4oGI7Xa-eKJPTHPbVQHv3pQ9q0">
+</div>
+<div class="max-w-7xl mx-auto px-6 relative z-10">
+<div class="text-center mb-16 fade-up scroll-trigger">
+<span class="text-[10px] font-label uppercase tracking-[0.3em] text-secondary">Client Voices</span>
+<h2 class="font-headline text-4xl md:text-5xl mt-2 text-on-background">Partners in Growth</h2>
+</div>
+<div class="flex overflow-x-auto gap-6 pb-12 hide-scrollbar snap-x snap-mandatory">
+<!-- Testimonial cards -->
+<div class="min-w-[320px] md:min-w-[400px] snap-center glass-card p-8 border border-outline-variant/10 fade-up scroll-trigger">
+<div class="flex text-secondary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline text-xl mb-8 leading-relaxed italic text-on-background">"Best wholesale silk prices in Coimbatore. Fabric quality is exceptional."</p>
+<div>
+<h4 class="font-bold text-on-background">Meena R.</h4>
+<p class="text-xs font-label uppercase tracking-widest text-secondary mt-1">Chennai Boutique Owner</p>
+</div>
+</div>
+<div class="min-w-[320px] md:min-w-[400px] snap-center glass-card p-8 border border-outline-variant/10 fade-up stagger-1 scroll-trigger">
+<div class="flex text-secondary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<p class="font-headline text-xl mb-8 leading-relaxed italic text-on-background">"Been sourcing from here for 8 years. Never disappointed. Professional and timely."</p>
+<div>
+<h4 class="font-bold text-on-background">Karthik S.</h4>
+<p class="text-xs font-label uppercase tracking-widest text-secondary mt-1">Tiruppur Exporter</p>
+</div>
+</div>
+<div class="min-w-[320px] md:min-w-[400px] snap-center glass-card p-8 border border-outline-variant/10 fade-up stagger-2 scroll-trigger">
+<div class="flex text-secondary mb-6">
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined">star</span>
+</div>
+<p class="font-headline text-xl mb-8 leading-relaxed italic text-on-background">"Great bridal collection. Staff very knowledgeable about weaves and textures."</p>
+<div>
+<h4 class="font-bold text-on-background">Priya Boutique</h4>
+<p class="text-xs font-label uppercase tracking-widest text-secondary mt-1">Erode Retailer</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. CATALOG REQUEST FORM -->
+<section class="py-24 bg-surface-container" id="catalog">
+<div class="max-w-7xl mx-auto px-6 grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
+<div class="fade-up scroll-trigger">
+<span class="text-[10px] font-label uppercase tracking-[0.3em] text-secondary">Ready to Source?</span>
+<h2 class="font-headline text-4xl md:text-5xl mt-2 text-on-background mb-6">Request Wholesale Catalog</h2>
+<p class="text-on-surface-variant font-light leading-loose mb-10">Join our network of 500+ successful retailers. Share your details and our relationship manager will send the latest fabric swatches and wholesale price lists directly to your WhatsApp.</p>
+<div class="space-y-4">
+<div class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="text-sm">Real-time inventory updates via WhatsApp</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="text-sm">Samples dispatched within 24 hours</span>
+</div>
+<div class="flex items-center gap-4 text-on-surface-variant">
+<span class="material-symbols-outlined text-secondary">check_circle</span>
+<span class="text-sm">Lowest MOQ for custom prints</span>
+</div>
+</div>
+</div>
+<div class="bg-surface p-8 md:p-12 border border-outline-variant/10 shadow-2xl scale-up scroll-trigger">
+<form class="space-y-8">
+<div class="relative group">
+<input class="w-full bg-transparent border-0 border-b border-outline py-4 focus:ring-0 focus:border-secondary transition-colors text-on-background placeholder:text-outline/50 uppercase text-[10px] tracking-widest font-label" id="name" placeholder="Full Name" required="" type="text">
+</div>
+<div class="relative group">
+<input class="w-full bg-transparent border-0 border-b border-outline py-4 focus:ring-0 focus:border-secondary transition-colors text-on-background placeholder:text-outline/50 uppercase text-[10px] tracking-widest font-label" id="mobile" placeholder="WhatsApp Number" required="" type="tel">
+</div>
+<div class="relative group">
+<select class="w-full bg-transparent border-0 border-b border-outline py-4 focus:ring-0 focus:border-secondary transition-colors text-on-background placeholder:text-outline/50 uppercase text-[10px] tracking-widest font-label appearance-none" id="business_type">
+<option class="bg-surface" disabled="" selected="" value="">Business Type</option>
+<option class="bg-surface" value="retail">Retail Boutique</option>
+<option class="bg-surface" value="exporter">Exporter</option>
+<option class="bg-surface" value="brand">Fashion Brand</option>
+</select>
+</div>
+<div class="relative group">
+<select class="w-full bg-transparent border-0 border-b border-outline py-4 focus:ring-0 focus:border-secondary transition-colors text-on-background placeholder:text-outline/50 uppercase text-[10px] tracking-widest font-label appearance-none" id="interest">
+<option class="bg-surface" disabled="" selected="" value="">Category Interest</option>
+<option class="bg-surface" value="silk">Pure Silks</option>
+<option class="bg-surface" value="uniform">Uniform Materials</option>
+<option class="bg-surface" value="designer">Designer Fabrics</option>
+</select>
+</div>
+<button class="w-full shimmer-btn py-5 text-on-secondary uppercase text-[10px] font-bold tracking-[0.2em] hover:brightness-110 transition-all flex items-center justify-center gap-4" type="submit">
+                Submit Request <span class="material-symbols-outlined text-sm">arrow_forward</span>
+</button>
+</form>
+</div>
+</div>
+</section>
+<!-- 7. FOOTER -->
+<footer class="bg-[#161307] pt-24 pb-12 border-t border-outline-variant/10">
+<div class="max-w-7xl mx-auto px-8 grid grid-cols-1 md:grid-cols-4 gap-12 mb-20">
+<div class="col-span-1 md:col-span-1">
+<span class="text-2xl font-headline tracking-widest text-secondary block mb-6">Sri Lakshmi Textiles</span>
+<p class="text-outline text-xs leading-relaxed max-w-[200px]">Curating excellence in Indian textiles since 2003. Quality you can feel, legacy you can trust.</p>
+</div>
+<div>
+<h4 class="text-[10px] font-label uppercase tracking-[0.1em] text-secondary mb-6">Visit Us</h4>
+<p class="text-outline text-xs leading-relaxed">
+            124, Oppanakara Street,<br>
+            Near Raja Theater, Coimbatore,<br>
+            Tamil Nadu - 641001
+          </p>
+<a class="inline-flex items-center gap-2 mt-4 text-secondary text-[10px] font-label uppercase tracking-widest hover:underline" href="#">
+<span class="material-symbols-outlined text-sm">map</span> Open in Google Maps
+          </a>
+</div>
+<div>
+<h4 class="text-[10px] font-label uppercase tracking-[0.1em] text-secondary mb-6">Business Hours</h4>
+<ul class="text-outline text-xs space-y-2">
+<li class="flex justify-between"><span>Mon - Sat</span> <span>09:30 - 20:30</span></li>
+<li class="flex justify-between"><span>Sunday</span> <span>10:30 - 18:30</span></li>
+</ul>
+</div>
+<div>
+<h4 class="text-[10px] font-label uppercase tracking-[0.1em] text-secondary mb-6">Connect</h4>
+<ul class="text-outline text-xs space-y-4">
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm">call</span>
+<span>+91 919XXXXXXXXX</span>
+</li>
+<li class="flex items-center gap-3">
+<span class="material-symbols-outlined text-sm">mail</span>
+<span>wholesale@srilakshmitextiles.in</span>
+</li>
+</ul>
+</div>
+</div>
+<div class="max-w-7xl mx-auto px-8 pt-12 border-t border-outline-variant/10 flex flex-col md:flex-row justify-between items-center gap-4">
+<p class="text-[10px] font-label uppercase tracking-[0.1em] text-outline/50">© 2024 Sri Lakshmi Textiles. Crafted for the Digital Atelier.</p>
+<div class="flex gap-8">
+<a class="text-[10px] font-label uppercase tracking-[0.1em] text-outline/50 hover:text-secondary transition-colors" href="#">Privacy Policy</a>
+<a class="text-[10px] font-label uppercase tracking-[0.1em] text-outline/50 hover:text-secondary transition-colors" href="#">Terms of Service</a>
+</div>
+</div>
+</footer>
+<!-- 8. FLOATING WHATSAPP -->
+<a class="fixed bottom-8 right-8 z-50 flex items-center gap-3 group" href="https://wa.me/919XXXXXXXXX">
+<div class="hidden md:block bg-surface-container-highest px-4 py-2 border border-secondary/20 rounded-full opacity-0 translate-x-4 group-hover:opacity-100 group-hover:translate-x-0 transition-all duration-300">
+<p class="text-[10px] font-label uppercase tracking-widest text-secondary">Chat with an Expert</p>
+</div>
+<div class="w-16 h-16 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl relative animate-pulse-gold">
+<div class="absolute inset-0 bg-[#25D366] rounded-full animate-ping opacity-20"></div>
+<svg class="w-8 h-8 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.481s3.481 5.228 3.481 8.404c0 6.556-5.332 11.888-11.888 11.888-2.016 0-3.993-.513-5.748-1.488l-6.236 1.7zm6.311-3.565l.354.21c1.458.865 3.136 1.321 4.862 1.321 4.957 0 8.991-4.034 8.991-8.991s-4.034-8.991-8.991-8.991-8.991 4.034-8.991 8.991c0 2.054.568 4.048 1.644 5.77l.233.373-.99 3.618 3.707-.972zm11.236-5.111c-.27-.135-1.597-.788-1.845-.878-.248-.09-.428-.135-.608.135-.18.27-.698.878-.855 1.058-.158.18-.315.203-.585.068-.27-.135-1.14-.42-2.172-1.341-.803-.715-1.345-1.598-1.503-1.868-.158-.27-.017-.416.118-.55.121-.121.27-.315.405-.473.135-.158.18-.27.27-.45.09-.18.045-.338-.023-.473-.068-.135-.608-1.464-.833-2.003-.219-.527-.44-.455-.608-.463-.158-.007-.338-.008-.518-.008-.18 0-.473.068-.72.338-.248.27-.945.923-.945 2.25s.968 2.61 1.103 2.79c.135.18 1.905 2.909 4.613 4.078.644.278 1.147.444 1.539.569.647.206 1.235.177 1.701.108.519-.077 1.597-.653 1.823-1.283.225-.63.225-1.17.157-1.283-.067-.113-.247-.203-.517-.338z"></path></svg>
+</div>
+</a>
+<script>
+      // Intersection Observer for animations
+      const observerOptions = {
+        threshold: 0.1,
+        rootMargin: '0px 0px -50px 0px'
+      };
+
+      const scrollObserver = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+          if (entry.isIntersecting) {
+            entry.target.classList.add('visible');
+            
+            // Trigger count up if it's the trust bar
+            if (entry.target.id === 'trust-bar') {
+              animateValue("rating-count", 0, parseFloat(TEMPLATE_CONFIG.GOOGLE_RATING), 1500, true);
+              animateValue("review-count", 0, parseInt(TEMPLATE_CONFIG.REVIEW_COUNT), 1500, false);
+            }
+          }
+        });
+      }, observerOptions);
+
+      // Register triggers
+      document.querySelectorAll('.fade-up, .scale-up, #trust-bar').forEach(el => {
+        scrollObserver.observe(el);
+      });
+
+      // Count up function
+      function animateValue(id, start, end, duration, isDecimal) {
+        let obj = document.getElementById(id);
+        let range = end - start;
+        let minTimer = 50;
+        let stepTime = Math.abs(Math.floor(duration / range));
+        stepTime = Math.max(stepTime, minTimer);
+        let startTime = new Date().getTime();
+        let endTime = startTime + duration;
+        let timer;
+
+        function run() {
+          let now = new Date().getTime();
+          let remaining = Math.max((endTime - now) / duration, 0);
+          let value = end - (remaining * range);
+          
+          if (isDecimal) {
+            obj.innerHTML = value.toFixed(1);
+          } else {
+            obj.innerHTML = Math.floor(value).toLocaleString();
+          }
+
+          if (value == end) {
+            clearInterval(timer);
+          }
+        }
+
+        timer = setInterval(run, stepTime);
+        run();
+      }
+
+      // Initial Hero Animation logic
+      window.addEventListener('load', () => {
+        document.querySelectorAll('section .fade-up').forEach((el, i) => {
+            if (el.closest('section').firstElementChild === el.parentElement || el.closest('section') === document.querySelector('section')) {
+               // Hero is already visible by default usually, but we ensure it fires
+               el.classList.add('visible');
+            }
+        });
+      });
+    </script>
+</body></html>
